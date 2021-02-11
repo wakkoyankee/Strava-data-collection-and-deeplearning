@@ -1,4 +1,4 @@
-# Strava-data-collection-deeplearning
+# Strava data collection and deeplearning
 
 In this repository you'll find : 
 
