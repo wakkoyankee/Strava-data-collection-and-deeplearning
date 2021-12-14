@@ -20,7 +20,7 @@ caps['proxy'] = {
 driver = webdriver.Firefox(desired_capabilities=caps)
 
 #60 seconds to connect with your strava account. Once connected go to strava homepage, it may need to refresh
-driver.get("https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=541588808765.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fwww.strava.com%2Fo_auth%2Fgoogle&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.login+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.me+email+profile&state=%7B%22context%22%3A%22google_web_signin%22%2C%22state%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGF0ZV9wYXJhbSI6ImM2dGowZjNyN2pvOGcxbGVsN29mYXYxNjBtY2gwNWdtIn0.eP7jWxMDyLM3mtFnxv2RwGMGJcdL-ZIUOlm17LCqAAM%22%7D")
+driver.get("//google authentification address")
 time.sleep(60)
  
 #SCRAPPING 
